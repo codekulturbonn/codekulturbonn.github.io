@@ -7,8 +7,8 @@ python:
   - 3.6.2
 
 install:
-  - pip install ivy
-  - pip install doctr
+  - pip3 install ivy
+  - pip3 install doctr
 
 script:
   - set -e
