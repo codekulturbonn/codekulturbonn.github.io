@@ -37,21 +37,45 @@
             <h1>Über Code &middot; Kultur &middot; Bonn</h1>
         
         
-        <p>Diese Seiten werden automatisch aus einem Verzeichnis einfacher Textdateien erzeugt. Du möchtest einen Einträg ändern oder ergänzen. Schicke uns einfach einen <a href="https://github.com/codekulturbonn/codekulturbonn.github.io">Pull Request auf Github</a>.  </p>
-<h2>Autor</h2>
-<p>Dr. Olav Schettler<br />
-Pipinstr. 14<br />
-D-53111 Bonn (NRW)<br />
-Germany</p>
-<p>Inhaltlich Verantwortlicher gemäß §10 Abs.3 MDStV</p>
-<p>Dr. Olav Schettler</p>
-<h2>Haftungshinweis</h2>
-<p>Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
-<h2>Verwendete Open Source Software</h2>
+        <p>
+Diese Seiten werden automatisch aus einem Verzeichnis mit Textdateien erzeugt. Die Dateien können in <em>Markdown</em> (Endung .md) oder <a href="http://mulholland.xyz/docs/monk/"><em>Monk</em></a> (Endung .mk) formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen <a href="https://github.com/codekulturbonn/codekulturbonn.github.io">Pull Request auf Github</a>.
+</p>
+<h2 id="autor">
+Autor
+</h2>
+<p>
+Dr. Olav Schettler
+Pipinstr. 14
+D-53111 Bonn (NRW)
+Germany
+</p>
+<p>
+Inhaltlich Verantwortlicher gemäß §10 Abs.3 MDStV
+</p>
+<p>
+Dr. Olav Schettler
+</p>
+<h2 id="haftungshinweis">
+Haftungshinweis
+</h2>
+<p>
+Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+</p>
+<h2 id="verwendete-open-source-software">
+Verwendete Open Source Software
+</h2>
 <ul>
-<li><a href="http://mulholland.xyz/docs/ivy">Ivy</a>, ein in Python geschriebener Generator für statische Websites von Darren Mulholland.</li>
-<li><a href="https://drdoctr.github.io/doctr/">Doctr</a> vereinfacht das Veröffentlichen der Seiten auf Github Pages mithilfe von Travis</li>
+<li>
+<a href="http://mulholland.xyz/docs/ivy">Ivy</a>, ein in Python geschriebener Generator für statische Websites von Darren Mulholland.
+</li>
+<li>
+<a href="https://drdoctr.github.io/doctr/">Doctr</a> vereinfacht das Veröffentlichen der Seiten auf Github Pages mithilfe von Travis
+</li>
 </ul>
+<p>
+Bei jeder Änderung an den Inhalten über <em>git push</em> startet ein Skript (definiert in der Datei <a href="https://github.com/codekulturbonn/codekulturbonn.github.io/blob/master/.travis.yml">.travis.yaml</a>) und lässt nacheinander Ivy und Doctr laufen, um aus den Quelldateien zuerst HTML zu erzeugen und dieses dann als <a href="https://pages.github.com/">Github Pages</a> zu veröffentlichen.
+</p>
+
         
     </article>
 
