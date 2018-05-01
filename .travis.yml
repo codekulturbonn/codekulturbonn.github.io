@@ -13,4 +13,4 @@ install:
 script:
   - set -e
   - ivy build
-  - doctr deploy --built-docs out .
+  - doctr deploy --built-docs out . --branch-whitelist source
