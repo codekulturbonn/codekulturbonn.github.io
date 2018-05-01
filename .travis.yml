@@ -8,7 +8,7 @@ python:
 
 script:
   - set -e
-  - wget -qO- https://bootstrap.pypa.io/get-pip.py | python3
+  - wget -qO- https://bootstrap.pypa.io/get-pip.py | python3 --user
   - pip install ivy
   - ivy build
   - pip install doctr
