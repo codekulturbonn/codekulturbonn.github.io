@@ -1,7 +1,7 @@
 ---
 title: Über Code &middot; Kultur &middot; Bonn
 ---
-Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/master/src) erzeugt. Die Dateien können in *Markdown* (Endung .md) oder [*Monk*](http://mulholland.xyz/docs/monk/) (Endung .mk) formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen [Pull Request auf Github](https://github.com/codekulturbonn/codekulturbonn.github.io).
+Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) erzeugt. Die Dateien können in *Markdown* (Endung .md) oder [*Monk*](http://mulholland.xyz/docs/monk/) (Endung .mk) formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen [Pull Request auf Github](https://github.com/codekulturbonn/codekulturbonn.github.io).
 
 ## Autor
 
