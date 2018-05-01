@@ -11,10 +11,8 @@ addons:
 python:
   - 3.6
 
-install:
-  - python3 -m pip install ivy doctr
-
 script:
   - set -e
+  - python3 -m pip install ivy doctr
   - ivy build
   - doctr deploy --built-docs out .
