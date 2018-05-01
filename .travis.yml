@@ -6,16 +6,15 @@ env:
 addons:
   apt:
     packages:
-      - "python3"
       - "python3-pip"
 
 python:
   - 3.6
 
+install:
+  - pip install ivy doctr
+
 script:
   - set -e
-  - wget -qO- https://bootstrap.pypa.io/get-pip.py | python3
-  - pip install -U ivy
   - ivy build
-  - pip install -U doctr
   - doctr deploy --built-docs out .
