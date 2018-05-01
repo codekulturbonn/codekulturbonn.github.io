@@ -3,6 +3,12 @@ env:
     # Doctr deploy key for codekulturbonn/codekulturbonn.github.io
     - secure: "QCEiilFCTJlKY+4rVg4f8yq6mbeVMOC+4lso/VMimOdskHoQzYxFZPNetLszogXL1Z4+FdIDePIBDIqNU5gsutsqGSPech60p2lreR3e4vLI37BShiJ8ZlwT8U/OL1omSAYVu+th8eG1Tku1q4vfJD5eG9OGoMnyMcdNWdERdYoeLYXmIYhiyeLTbkh88tJdN8IHTB2Kh4dVjkm8GnK73fsZdw2StNyZePfkKS4O/IyebNQSE66vjDmHv2Od2NqkqZZHWQgMYRoSA2bh73BkD/ITutlTOHMYW5jaywO/gGE1m304xy1Gcw3GHoDAsmFzIp+puHTIcfPKMnhDn8Ld96xWKbuFcnA3K+t23Kr+IfSM+ZVPJdg6D0RG0lIOOMK1yAsWVKO/61UFWSFc3ytbRFtZhA62FdTvDWLEus44sffixqWjd2YTpvWrfCOULT7f0ty1fY5TZSDDZqjU6JG1uuFkYvgw6CXDN+Y5cgeWXO4qz6p02V+lLyBaZjSeDYGnqJv9t9gM4E35kZl7KTfqKiM3aeM+4/stimRQtC+ak+pUmZE+F1DqaEvTHf+2lOGSdwzqqkUYcLw6b+0te1X9V1omwmnXn562Hv7sPqkjk5WMwEBKKqCULXzShSt0jsU0N1D7a7sCHB2gNhxKXNP3agUz2RmOnqekWzNqio+CmsY="
 
+addons:
+  apt:
+    packages:
+      - "python3"
+      - "python3-pip"
+
 python:
   - 3.6
 
