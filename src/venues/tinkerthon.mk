@@ -8,5 +8,5 @@ venue_url: https://tinkerthon.de/
 * Physical Computing am Spiel „Der heisse Draht“
 * [Wiki-Wissensspeicher](https://wissen.tinkerthon.de/)
 * Ergebnis zum mit nach Hause nehmen
-* Workshop-Konzept als [OER]( https://github.com/tinkerthon/)
-  * Zunächst mit PICAXE,  zuletzt mit BBC micro:bit und Calliope Mini
+* Workshop-Konzept als [OER](https://github.com/tinkerthon/)
+  * Zunächst mit PICAXE, zuletzt mit BBC micro:bit und Calliope Mini
