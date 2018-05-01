@@ -3,6 +3,7 @@ title: Veranstaltungen
 ---
 ## Regelmäßige Veranstaltungen
 
+* [19.-23.02.2019 didacta Köln](http://www.didacta-koeln.de/)
 * [Hour of Code](https://code.org/)
 * [3.-9.12.2018 Computer Science Education Week](https://csedweek.org/)
 * [MakerFaire](https://makerfaire.com/)
@@ -12,3 +13,4 @@ title: Veranstaltungen
 * [22.09.2018 FutureCamp](https://futurecamp.digital/)
 * [SocialBar](http://socialbar.de/standort/bonn/)
 * [28.03.2019 Girls' / Boys' Day](https://www.girls-day.de/)
+* [Microsoft Code Your Live](http://www.code-your-life.org/)
