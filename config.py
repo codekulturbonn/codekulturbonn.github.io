@@ -25,7 +25,7 @@ theme = "vanilla"
 title = "Code &middot; Kultur &middot; Bonn"
 
 # Site tagline - how this is displayed depends on the theme.
-tagline = "Orte,  Initiativen und Veranstaltungen in und um die Bundesstadt Bonn, in denen Kinder und Jugendliche kreativ coden und tüfteln können."
+tagline = "Orte, Initiativen und Veranstaltungen in und um die Bundesstadt Bonn, in denen Kinder und Jugendliche kreativ coden und tüfteln können."
 
 # ------------------------------------------------------------------------------
 # Root URL
