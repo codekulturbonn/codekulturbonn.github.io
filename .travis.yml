@@ -8,7 +8,7 @@ python:
 
 script:
   - set -e
-  - pip install ivy
+  - python3 -m pip install ivy
   - ivy build
-  - pip install doctr
+  - python3 -m pip install doctr
   - doctr deploy --built-docs out .
