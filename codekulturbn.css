@@ -40,3 +40,8 @@ footer img {
   margin-left: 1em;
   text-indent: -1em;
 }
+
+.signature img {
+  margin: 0;
+  width: 100px;
+}
