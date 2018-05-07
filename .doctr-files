@@ -1,4 +1,5 @@
 ./about.html
+./activities.html
 ./codekulturbn.css
 ./events.html
 ./fontawesome-all.min.js
@@ -19,6 +20,7 @@
 ./venues/code-for-bonn.html
 ./venues/coder-dojo.html
 ./venues/coding-for-tomorrow.html
+./venues/codingschule.html
 ./venues/codiviti.html
 ./venues/deutsches-museum-bonn.html
 ./venues/digikids.html
@@ -29,10 +31,14 @@
 ./venues/haus-der-kleinen-forscher.html
 ./venues/haus-muellestumpe.html
 ./venues/junge-tueftler.html
+./venues/leonardos-basement.html
 ./venues/makerspace.html
+./venues/medienpaedagogik-bonn.html
+./venues/medienzentrum-bonn.html
 ./venues/sk-stiftung.html
 ./venues/start-coding.html
 ./venues/teckids.html
+./venues/tinkering-school.html
 ./venues/tinkerthon.html
 ./venues/vhs-bonn.html
 ./venues/zkm-open-codes.html

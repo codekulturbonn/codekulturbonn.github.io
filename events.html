@@ -13,6 +13,22 @@
         <script src="html5shiv.js"></script>
     <![endif]-->
     
+    
+  <link href='node_modules/fullcalendar/dist/fullcalendar.css' rel='stylesheet' />
+  <link href='node_modules/fullcalendar/dist/fullcalendar.print.css' rel='stylesheet' media='print' />
+  <style>
+    body {
+      margin: 40px 10px;
+      padding: 0;
+      font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+      font-size: 14px;
+    }
+    #calendar {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  </style>
+
 </head>
 
 <body class="node-events node">
@@ -28,6 +44,7 @@
 <li><a href="index.html">Start</a></li>
 <li><a href="venues.html">Orte</a></li>
 <li><a href="events.html">Veranstaltungen</a></li>
+<li><a href="activities.html">Aktivitäten</a></li>
 <li><a href="about.html">Über diese Seiten</a></li>
 </ul>
     </header>
@@ -37,27 +54,18 @@
             <h1>Veranstaltungen</h1>
         
         
-        <h2 id="regelmaige-veranstaltungen">
-Regelmäßige Veranstaltungen
-</h2>
-<ul>
+        <ul>
 <li>
-<a href="http://www.didacta-koeln.de/">19.-23.02.2019 didacta Köln</a>
+17./18.05.2018 Wissenschaftszelt auf dem Münsterplatz im Rahmen der Wissenschaftsnacht
 </li>
 <li>
-<a href="https://code.org/">Hour of Code</a>
+<a href="http://www.code-your-life.org/">Microsoft Code Your Live</a>
 </li>
 <li>
-<a href="https://csedweek.org/">3.-9.12.2018 Computer Science Education Week</a>
+<a href="http://www.code-your-life.org/Blog/1399_Sommerfest_Digitale_Chancen_fuer_alle.htm">25.06.2018 Sommerfest in Berlin</a>
 </li>
 <li>
-<a href="https://makerfaire.com/">MakerFaire</a>
-</li>
-<li>
-<a href="http://www.digitalestadtgerolstein.de/?p=7895">6./7.10.2018 Mini MakerFaire Gerolstein</a>
-</li>
-<li>
-<a href="https://barcampbonn.de/">Barcamp Bonn</a>
+<a href="http://jugendmedienkultur-nrw.de/?p=3780">9.07.2018 Praxistag für Padagoginnen - Jugend hackt NRW</a>
 </li>
 <li>
 <a href="https://www.froscon.de/">25./26.08.2018 FrOSCon</a>
@@ -66,13 +74,33 @@ Regelmäßige Veranstaltungen
 <a href="https://futurecamp.digital/">22.09.2018 FutureCamp</a>
 </li>
 <li>
-<a href="http://socialbar.de/standort/bonn/">SocialBar</a>
+<a href="https://makerfaire.com/">MakerFaire</a>
+</li>
+<li>
+<a href="http://www.digitalestadtgerolstein.de/?p=7895">6./7.10.2018 Mini MakerFaire Gerolstein</a>
+</li>
+<li>
+<a href="http://codeweek.eu/resources/">7.-22.10.2018 EU Code Week</a>
+</li>
+<li>
+<a href="https://csedweek.org/">3.-9.12.2018 Computer Science Education Week</a>
+</li>
+<li>
+<a href="http://www.didacta-koeln.de/">19.-23.02.2019 didacta Köln</a>
 </li>
 <li>
 <a href="https://www.girls-day.de/">28.03.2019 Girls' / Boys' Day</a>
 </li>
+</ul>
+<h2 id="regelmaige-veranstaltungen">
+Regelmäßige Veranstaltungen
+</h2>
+<ul>
 <li>
-<a href="http://www.code-your-life.org/">Microsoft Code Your Live</a>
+<a href="https://barcampbonn.de/">Barcamp Bonn</a>
+</li>
+<li>
+<a href="http://socialbar.de/standort/bonn/">SocialBar</a>
 </li>
 </ul>
 
@@ -86,5 +114,17 @@ Regelmäßige Veranstaltungen
 
 
     <script src="fontawesome-all.min.js"></script>
+    
+<script src='node_modules/jquery/dist/jquery.js'></script>
+<script src='node_modules/moment/moment.js'></script>
+<script src='node_modules/fullcalendar/gcal.js'></script>
+<script src='node_modules/fullcalendar/locale-all.js'></script>
+<script src='dist/events.js'></script>
+
 </body>
 </html>
+
+
+
+
+
