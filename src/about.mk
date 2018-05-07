@@ -5,10 +5,11 @@ Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://
 
 ## Autor
 
-Dr. Olav Schettler<br>
-Pipinstr. 14<br>
-D-53111 Bonn (NRW)<br>
-Germany
+:p ||
+	Dr. Olav Schettler
+	Pipinstr. 14
+	D-53111 Bonn (NRW)
+	Germany
 
 Inhaltlich Verantwortlicher gemäß §10 Abs.3 MDStV
 

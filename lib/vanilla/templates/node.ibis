@@ -13,6 +13,7 @@
         <script src="@root/html5shiv.js"></script>
     <![endif]-->
     {{ inc.head }}
+    {% block styles %}{% endblock %}
 </head>
 
 <body class="{{{ classes }}}">
@@ -39,5 +40,6 @@
     {{ inc.foot }}
 
     <script src="@root/fontawesome-all.min.js"></script>
+    {% block scripts %}{% endblock %}
 </body>
 </html>
