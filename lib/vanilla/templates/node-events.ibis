@@ -1,35 +1,19 @@
 {% extends "node.ibis" %}
 
-{% block styles %}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css" media="print">
-<style>
-  #calendar {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-</style>
-{% endblock %}
-
-{% block scripts %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
-<script>
-$.ajax({
-  url: '/data.html',
-  dataType: 'json',
-  success: function (events) {
-    $('#calendar').fullCalendar({
-      header: {
-        left: "prev,next today",
-        center: "title",
-        right: "month,agendaWeek,agendaDay"
-      },
-      firstDay: 1,
-      events
-    });
-  }
-});
-</script>
+{% block children %}
+  <h2>Veranstaltungen</h2>
+  <ul>
+  {% for event in node.childlist %}
+    <li>{{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif%}:
+      {% if event.event_url %}
+        <a href="{{ event.event_url }}">{{ event.title }}</a>
+      {% else %}
+        {{ event.title }}
+      {% endif %}
+      {% if event.location %}
+        - {{ event.location }}
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
 {% endblock %}
