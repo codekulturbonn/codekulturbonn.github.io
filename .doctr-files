@@ -2,6 +2,16 @@
 ./activities.html
 ./codekulturbn.css
 ./events.html
+./events/2018-05-17-wissenschaftszelt.html
+./events/2018-06-25-microsoft-cyl-sommerfest.html
+./events/2018-07-09-jugend-hackt-nrw-praxistag.html
+./events/2018-08-25-froscon.html
+./events/2018-09-22-futurecamp.html
+./events/2018-10-06-minimaker-gerolstein.html
+./events/2018-10-07-eu-code-week.html
+./events/2018-12-03-cse-week.html
+./events/2019-02-19-didacta.html
+./events/2019-03-28-girlsday.html
 ./fontawesome-all.min.js
 ./html5shiv.js
 ./index.html
@@ -30,6 +40,7 @@
 ./venues/haus-der-jugend.html
 ./venues/haus-der-kleinen-forscher.html
 ./venues/haus-muellestumpe.html
+./venues/jfc.html
 ./venues/junge-tueftler.html
 ./venues/leonardos-basement.html
 ./venues/makerspace.html
