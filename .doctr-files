@@ -2,6 +2,8 @@
 ./activities.html
 ./codekulturbn.css
 ./events.html
+./events/2018-05-12-arduino-day.html
+./events/2018-05-12-jugend-hackt-nrw.html
 ./events/2018-05-17-wissenschaftszelt.html
 ./events/2018-06-25-microsoft-cyl-sommerfest.html
 ./events/2018-07-09-jugend-hackt-nrw-praxistag.html
@@ -36,6 +38,7 @@
 ./venues/digikids.html
 ./venues/digitalwerkstatt.html
 ./venues/dorkbot.html
+./venues/fjmk.html
 ./venues/frauenmuseum.html
 ./venues/haus-der-jugend.html
 ./venues/haus-der-kleinen-forscher.html
