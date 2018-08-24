@@ -1,15 +1,19 @@
 {% extends "node.ibis" %}
 
 {% block head %}
-{% if node.event_url %}
-<ul class="info-box">
-  <li><i class="fa fa-globe"></i>
-    <a href="{{ node.event_url }}">Homepage</a></li>
-  {% if node.location %}
-    <li><i class="fa fa-map-marker"></i> {{ node.location }}
-  {% endif %}
-</ul>
-{% endif %}
+    {% if node.start %}
+        <ul class="info-box">
+          {% if node.event_url %}
+          <li><i class="fa fa-globe"></i>
+            <a href="{{ node.event_url }}">Homepage</a></li>
+          {% endif %}
+          <li><i class="fa fa-clock"></i> 
+            {{ node.start }}{% if node.end %} &hellip; {{ event.end }}{% endif%}
+          {% if node.location %}
+            <li><i class="fa fa-map-marker"></i> {{ node.location }}
+          {% endif %}
+        </ul>
+    {% endif %}
 {% endblock %}
 
 {% block children %}
