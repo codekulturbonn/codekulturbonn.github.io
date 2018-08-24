@@ -34,7 +34,9 @@
         {% endif %}
         {% block head %}{% endblock %}
         {{ node.html }}
-        {% block children %}{% endblock %}
+        {% if node.childlist %}
+          {% block children %}{% endblock %}
+        {% endif %}
     </article>
 
     {{ inc.foot }}
