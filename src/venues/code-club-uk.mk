@@ -8,6 +8,6 @@ An enthusiastic volunteer teams up with a community venue, such as a school or l
 Code Club International is a programme within the Raspberry Pi Foundation with a mission to put a Code Club in every community. 
 
 ---
-Die Organisation zielt auf weltweite Verbreitung ab. Der [nächste Club von Bonn aus]() ist in Kerkrade in Limburg.
+Die Organisation zielt auf weltweite Verbreitung ab. Allerdings scheint es in Deutschland keine Aktivitäten zu geben.
 
-Es gibt [einige Scratch-Projekte](https://codeclubprojects.org/de-DE/scratch/), die bereits ins Deutsche übersetzt wurden. Neben Scratch gibt es Projekte für _HTML_ und _Python_. 
+Es gibt [einige Scratch-Projekte](https://codeclubprojects.org/de-DE/scratch/), die bereits ins Deutsche übersetzt wurden. Neben Scratch gibt es Projekte für *HTML* und *Python*. 
