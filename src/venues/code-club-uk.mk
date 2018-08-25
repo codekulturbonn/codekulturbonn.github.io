@@ -1,6 +1,6 @@
 ---
 title: Code Club UK
-location: >7k Clubs in UK
+location: mehr als 7.000 Clubs in UK
 venue_url: https://www.codeclubworld.org/
 ---
 An enthusiastic volunteer teams up with a community venue, such as a school or library, to run an after-school club for young people aged 9-13, using specially created Code Club resources.
