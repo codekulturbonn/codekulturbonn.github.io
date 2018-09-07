@@ -28,7 +28,7 @@
         <ul>
 <li><a href="index.html">Start</a></li>
 <li><a href="https://www.meetup.com/de-DE/Bonn-Programmieren-als-Kulturtechnik-Meetup/">Meetups</a></li>
-<li><a href="https://bonn.community/t/digital-workshops-fuer-kinder-und-jugendliche-in-bonn/265">Diskussion</a></li>
+<li><a href="https://bonn.community/t/meetup-zu-programmieren-als-kulturtechnik-am-mittwoch-25-4/742">Diskussion</a></li>
 <li><a href="venues.html">Orte</a></li>
 <li><a href="events.html">Veranstaltungen</a></li>
 <li><a href="activities.html">Aktivitäten</a></li>
@@ -42,7 +42,48 @@
         
         
         <p>
-Diese Seiten werden automatisch aus einem <a href="https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src">Verzeichnis mit Textdateien</a> erzeugt. Die Dateien können in <em>Markdown</em> (Endung .md) oder <a href="http://mulholland.xyz/docs/monk/"><em>Monk</em></a> (Endung .mk) formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen <a href="https://github.com/codekulturbonn/codekulturbonn.github.io">Pull Request auf Github</a>.
+Diese Seiten werden automatisch aus einem <a href="https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src">Verzeichnis mit Textdateien</a> erzeugt.
+Die Dateien können in <em>Markdown</em> (Endung .md) oder <a href="http://mulholland.xyz/docs/monk/"><em>Monk</em></a> (Endung .mk)
+formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen
+<a href="https://github.com/codekulturbonn/codekulturbonn.github.io">Pull Request auf Github</a>.
+</p>
+<p>
+Einträge können sich auf <a href="/venues.html">einen Ort</a> oder <a href="/events.html">eine Veranstaltung</a> beziehen oder <a href="/activities.html">ortsunabhängige
+Aktivitäten</a> beschreiben.
+</p>
+<p>
+Die Einträge sind dabei Textdateien mit einer einfachen Struktur. Eine Datei beginnt immer mit drei Strichen <code>---</code>,
+gefolgt von einer Reihe Kopfzeilen, abgeschlossen mit nochmals <code>---</code>. Der Rest der Datei enthält die Beschreibung im
+<a href="http://mulholland.xyz/docs/monk/"><em>Monk</em></a>-Format.
+</p>
+<p>
+Hier ein Beispiel für Kopfzeilen eines Ortes:
+</p>
+<p>
+<code>`</code>`
+title: Haus der Jugend
+location: Bonn
+venue_url: http://hausderjugendbonn.de/
+<code>`</code>`
+</p>
+<p>
+Veranstaltungen haben andere Kopfzeilen, z.B.:
+</p>
+<p>
+<code>`</code>`
+title: FutureCamp
+start: 2018-09-22
+fullday: true
+event_url: https://futurecamp.digital/
+venue: haus-der-jugend
+<code>`</code>`
+</p>
+<p>
+<code>venue</code> enthält dabei den Dateinamen eines Veranstaltungsortes. Auf diese Weise können wir Veranstaltungen an einem
+bestimmten Ort auflisten, z.B. im <a href="https://codekulturbonn.de/venues/haus-der-jugend.html">Haus der Jugend</a>.
+</p>
+<p>
+Wir freuen uns auf eure Einträge!
 </p>
 <h2 id="autor">
 Autor
