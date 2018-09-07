@@ -4,7 +4,7 @@ location: Bonn
 event_url: https://jugendhackt.org/anmeldung-jugend-hackt-hello-world-bonn/
 start: 2018-09-15
 ---
-* Im Haus der Jugend, 11 - 17 Uhr
+* Im [Haus der Jugend](/venues/haus-der-jugend.html), 11 - 17 Uhr
 * Ab 10 Jahren
 * Es gibt ein [Handbuch für Veranstalter](https://jugendhackt.org/material/)
 * Letzte [Veranstaltung in Köln](https://codekulturbonn.de/events/2018-05-12-jugend-hackt-nrw.html)
