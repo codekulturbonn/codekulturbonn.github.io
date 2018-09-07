@@ -15,24 +15,20 @@ gefolgt von einer Reihe Kopfzeilen, abgeschlossen mit nochmals `---`. Der Rest d
 
 Hier ein Beispiel für Kopfzeilen eines Ortes:
 
-````
-title: Haus der Jugend
-location: Bonn
-venue_url: http://hausderjugendbonn.de/
-````
+	title: Haus der Jugend
+	location: Bonn
+	venue_url: http://hausderjugendbonn.de/
 
 Veranstaltungen haben andere Kopfzeilen, z.B.:
 
-````
-title: FutureCamp
-start: 2018-09-22
-fullday: true
-event_url: https://futurecamp.digital/
-venue: haus-der-jugend
-````
+	title: FutureCamp
+	start: 2018-09-22
+	fullday: true
+	event_url: https://futurecamp.digital/
+	venue: haus-der-jugend
 
 `venue` enthält dabei den Dateinamen eines Veranstaltungsortes. Auf diese Weise können wir Veranstaltungen an einem 
-bestimmten Ort auflisten, z.B. im [Haus der Jugend](https://codekulturbonn.de/venues/haus-der-jugend.html). 
+bestimmten Ort auflisten, z.B. im [Haus der Jugend](/venues/haus-der-jugend.html). 
 
 Wir freuen uns auf eure Einträge!
 
