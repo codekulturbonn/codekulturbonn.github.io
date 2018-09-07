@@ -7,4 +7,3 @@ venue_url: http://hausderjugendbonn.de/
 * Offen für Kinder und Jugendliche von 6 bis 21 Jahren
 * Multimedia-Angebote
 * Ferienprogramm
-* [FutureCamp](https://futurecamp.digital)

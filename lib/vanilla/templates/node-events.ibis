@@ -7,33 +7,37 @@
           <li><i class="fa fa-globe"></i>
             <a href="{{ node.event_url }}">Homepage</a></li>
           {% endif %}
-          <li><i class="fa fa-clock"></i> 
-            {{ node.start }}{% if node.end %} &hellip; {{ event.end }}{% endif%}
-          {% if node.location %}
-            <li><i class="fa fa-map-marker"></i> {{ node.location }}
+          {% if node.venue %}
+              <li><i class="fa fa-map-marker"></i> {{ node.venue_link }}</li>
+          {% elif node.location %}
+              <li><i class="fa fa-map-marker"></i> {{ node.location }}</li>
           {% endif %}
+          <li><i class="fa fa-clock"></i> 
+            {{ node.start }}{% if node.end %} &hellip; {{ node.end }}{% endif %}</li>
         </ul>
     {% endif %}
 {% endblock %}
 
-{% block children %}
-  <h2>Veranstaltungen</h2>
-  <ul>
-  {% for event in node.childlist %}
-    <li>{{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif%}:
-      {% if event.text %}
-        <a href="{{ event.url }}">{{ event.title }}</a>
-      {% else %}
-          {% if event.event_url %}
-            <a href="{{ event.event_url }}">{{ event.title }}</a>
-          {% else %}
-            {{ event.title }}
-          {% endif %}
-      {% endif %}
-      {% if event.location %}
-        - {{ event.location }}
-      {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
+{% block foot %}
+  {% if node.childlist %}
+    <h2>Veranstaltungen</h2>
+    <ul>
+    {% for event in node.childlist %}
+      <li>{{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif%}:
+        {% if event.text %}
+          <a href="{{ event.url }}">{{ event.title }}</a>
+        {% else %}
+            {% if event.event_url %}
+              <a href="{{ event.event_url }}">{{ event.title }}</a>
+            {% else %}
+              {{ event.title }}
+            {% endif %}
+        {% endif %}
+        {% if event.location %}
+          - {{ event.location }}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
 {% endblock %}

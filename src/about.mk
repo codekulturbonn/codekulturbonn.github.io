@@ -1,7 +1,40 @@
 ---
 title: Über Code &middot; Kultur &middot; Bonn
 ---
-Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) erzeugt. Die Dateien können in *Markdown* (Endung .md) oder [*Monk*](http://mulholland.xyz/docs/monk/) (Endung .mk) formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen [Pull Request auf Github](https://github.com/codekulturbonn/codekulturbonn.github.io).
+Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) erzeugt. 
+Die Dateien können in *Markdown* (Endung .md) oder [*Monk*](http://mulholland.xyz/docs/monk/) (Endung .mk) 
+formatiert sein. Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen 
+[Pull Request auf Github](https://github.com/codekulturbonn/codekulturbonn.github.io).
+
+Einträge können sich auf [einen Ort](/venues.html) oder [eine Veranstaltung](/events.html) beziehen oder [ortsunabhängige 
+Aktivitäten](/activities.html) beschreiben.
+
+Die Einträge sind dabei Textdateien mit einer einfachen Struktur. Eine Datei beginnt immer mit drei Strichen `---`, 
+gefolgt von einer Reihe Kopfzeilen, abgeschlossen mit nochmals `---`. Der Rest der Datei enthält die Beschreibung im
+[*Monk*](http://mulholland.xyz/docs/monk/)-Format. 
+
+Hier ein Beispiel für Kopfzeilen eines Ortes:
+
+````
+title: Haus der Jugend
+location: Bonn
+venue_url: http://hausderjugendbonn.de/
+````
+
+Veranstaltungen haben andere Kopfzeilen, z.B.:
+
+````
+title: FutureCamp
+start: 2018-09-22
+fullday: true
+event_url: https://futurecamp.digital/
+venue: haus-der-jugend
+````
+
+`venue` enthält dabei den Dateinamen eines Veranstaltungsortes. Auf diese Weise können wir Veranstaltungen an einem 
+bestimmten Ort auflisten, z.B. im [Haus der Jugend](https://codekulturbonn.de/venues/haus-der-jugend.html). 
+
+Wir freuen uns auf eure Einträge!
 
 ## Autor
 
