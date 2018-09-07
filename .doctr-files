@@ -4,6 +4,7 @@
 ./events.html
 ./events/2018-05-12-arduino-day.html
 ./events/2018-05-12-jugend-hackt-nrw.html
+./events/2018-05-12-scratch-day-2018-skmedien.html
 ./events/2018-05-17-wissenschaftszelt.html
 ./events/2018-06-25-microsoft-cyl-sommerfest.html
 ./events/2018-07-09-jugend-hackt-nrw-praxistag.html
@@ -18,7 +19,6 @@
 ./events/2018-12-03-cse-week.html
 ./events/2019-02-19-didacta.html
 ./events/2019-03-28-girlsday.html
-./events/scratch-day-2018-skmedien.html
 ./fontawesome-all.min.js
 ./html5shiv.js
 ./index.html
