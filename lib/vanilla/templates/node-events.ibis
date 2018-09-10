@@ -7,7 +7,7 @@
           <li><i class="fa fa-globe"></i>
             <a href="{{ node.event_url }}">Homepage</a></li>
           {% endif %}
-          {% if node.venue %}
+          {% if node.venue_link %}
               <li class="venue"><i class="fa fa-map-marker"></i> {{ node.venue_link }}</li>
           {% elif node.location %}
               <li class="location"><i class="fa fa-map-marker"></i> {{ node.location }}</li>
