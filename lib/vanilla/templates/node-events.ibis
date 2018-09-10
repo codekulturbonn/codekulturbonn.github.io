@@ -8,9 +8,9 @@
             <a href="{{ node.event_url }}">Homepage</a></li>
           {% endif %}
           {% if node.venue %}
-              <li><i class="fa fa-map-marker"></i> {{ node.venue_link }}</li>
+              <li class="venue"><i class="fa fa-map-marker"></i> {{ node.venue_link }}</li>
           {% elif node.location %}
-              <li><i class="fa fa-map-marker"></i> {{ node.location }}</li>
+              <li class="location"><i class="fa fa-map-marker"></i> {{ node.location }}</li>
           {% endif %}
           <li><i class="fa fa-clock"></i> 
             {{ node.start }}{% if node.end %} &hellip; {{ node.end }}{% endif %}</li>
