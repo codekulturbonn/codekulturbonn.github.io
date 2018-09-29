@@ -44,6 +44,14 @@ Inhaltlich Verantwortlicher gemäß §10 Abs.3 MDStV
 
 Dr. Olav Schettler
 
+## Über mich
+
+Ich bin Diplom-Informatiker und arbeite als Produktmanager bei Chefkoch in Bonn.
+
+Als Vater von zwei jungen Erwachsenen und einer Tochter in der Grundschule werde ich täglich mit der Faszination der Medienwelt für Heranwachsende konfrontiert. Als ich Anfang der 1980er Jahre als Schüler anfing, mich mit Elektronik zu beschäftigen, mussten wir unsere Computer noch selber aus einzelnen ICs zusammenbauen. Dabei lernt man natürlich eine Menge über das Wie und Warum von Computern. Mit meinem Informatikstudium habe ich diese frühe Faszination zum Beruf gemacht und arbeite seit mehr als 20 Jahren in Web-Entwicklung und E-Commerce.
+
+Seit einigen Jahren zeige ich Kindern in Workshops die faszinierende Welt der Microcontroller. Dazu passt gut, dass es unter dem Stichwort "Physical Computing" inzwischen leistungsfähige und doch preiswerte Microcontroller gibt, die von einer internationalen Fan-Gemeinde entwickelt werden und die es interessierten Bastlern und Künstlern ermöglichen, Microcontroller in ihre Bauwerke zu integrieren.   
+
 ## Haftungshinweis
 
 Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
