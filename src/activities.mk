@@ -29,7 +29,7 @@ Konzept, Materialsammlung und Beispiel-Code zum freien Herunterladen auf [Github
 
 Dieses zweistündige Format eigenet sich für einen Sonntagnachmittag. Die Teilnehmer bringen ihre eigenen Rechner oder Tablets mit, so dass die Veranstaltung auch gut zuhause durchgeführt werden kann. Anhand von Projektkarten realisieren die ca. 8 Teilnehmer ab 9 Jahren kleine Animationsprojekte oder Spiele in der Blockprogrammiersprache Scratch.
 
-[Einführungspräsentation](https://docs.google.com/document/d/1X5QzECg7RNVS4lrvrOzDS0SXJvIM1Db3GcoIQoiRQJk/edit?usp=sharing) und [Orga-Checkliste](https://drive.google.com/open?id=1I5NfBJlMVPckFoHW3kRDsu5gBdTbIJ7D4bWTrRVCqAY) zum Herunterladen. 
+[Einführungspräsentation](https://drive.google.com/open?id=1ngSQWu8ZFyLN7aues6dI8iFAlHrGLnJu1gCp6UFt0gw) und [Orga-Checkliste](https://drive.google.com/open?id=1I5NfBJlMVPckFoHW3kRDsu5gBdTbIJ7D4bWTrRVCqAY) zum Herunterladen. 
     
 *Ein Tipp:* Immer mehr Kinder haben zuhause keinen Rechner, sondern nur ein Tablet zur Verfügung. Um einfacher mit Scratch und vielleicht später mit Physical Computing oder textbasierten Programmiersprachen zu arbeiten, lohnt sich in diesem Fall die Anschaffung eines [Raspberry Pi](https://amzn.to/2OZQTOh) (Affiliate-Link zu Amazon). Zusammen mit Tastatur und Maus und einem Fernseher oder Computer-Monitor haben die Kinder einen einfachen, aber vollwertigen Computer für unter 50€.   
 
