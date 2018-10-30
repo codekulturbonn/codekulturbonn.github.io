@@ -9,7 +9,7 @@ Herzlich willkommen!
 
 Hier listen wir zur besseren Vernetzung der Akteure Orte und Veranstaltungen in und um Bonn auf, bei denen Kinder und Jugendliche programmieren oder sonstwie kreativ mit Computern und anderen digitalen Medien sein können.
 
-Wir treffen uns regelmäßig. Das [nächste Treffen ist am 30.10. im Bonner Haus der Jugend](https://www.meetup.com/de-DE/Bonn-Programmieren-als-Kulturtechnik-Meetup/events/255050008/).
+Wir treffen uns regelmäßig. Das [nächste Treffen am 30.10. im Bonner Haus der Jugend](https://www.meetup.com/de-DE/Bonn-Programmieren-als-Kulturtechnik-Meetup/events/255050008/) **fällt allerdings leider aus**.
 
 Komm´ doch vorbei!
 
