@@ -19,6 +19,7 @@
 ./events/2018-10-07-eu-code-week.html
 ./events/2018-10-11-mint-koeln.html
 ./events/2018-12-03-cse-week.html
+./events/2019-02-16-hacker-school-bonn.html
 ./events/2019-02-19-didacta.html
 ./events/2019-03-28-girlsday.html
 ./fontawesome-all.min.js
@@ -53,6 +54,7 @@
 ./venues/fjmk.html
 ./venues/frauenmuseum.html
 ./venues/girlswhocode.html
+./venues/hacker-school.html
 ./venues/haus-der-jugend.html
 ./venues/haus-der-kleinen-forscher.html
 ./venues/haus-muellestumpe.html
