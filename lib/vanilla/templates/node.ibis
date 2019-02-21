@@ -37,6 +37,9 @@
         {% block foot %}{% endblock %}
     </article>
 
+    <div id="commento"></div>
+    <script src="https://commento.codekulturbonn.de/js/commento.js"></script>
+
     {{ inc.foot }}
 
     <script src="@root/fontawesome-all.min.js"></script>
