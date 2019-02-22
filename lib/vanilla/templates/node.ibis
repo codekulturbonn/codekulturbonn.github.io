@@ -12,6 +12,7 @@
     <!--[if lt IE 9]>
         <script src="@root/html5shiv.js"></script>
     <![endif]-->
+    <script src="https://hypothes.is/embed.js" async></script>
     {{ inc.head }}
     {% block styles %}{% endblock %}
 </head>
