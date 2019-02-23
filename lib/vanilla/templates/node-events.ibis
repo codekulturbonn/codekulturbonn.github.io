@@ -23,7 +23,7 @@
     <h2>Veranstaltungen</h2>
     <ul>
     {% for event in node.childlist %}
-      <li>{{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif%}:
+      <li>{{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif %}:
         {% if event.text %}
           <a href="{{ event.url }}">{{ event.title }}</a>
         {% else %}

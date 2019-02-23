@@ -5,3 +5,4 @@ venue_url: http://www.bonn.de/familie_gesellschaft_bildung_soziales/kind_jugend_
 ---
 * Jugendeinrichtung der Bundesstadt Bonn
 * Offen für Kinder und Jugendliche von 6 bis 21 Jahren
+* Computer-Aktivitäten Freitags ab 15 Uhr

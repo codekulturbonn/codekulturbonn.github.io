@@ -41,3 +41,5 @@ Hier sind ein paar weitere Formate, an denen ihr zuhause, mit der OGS-Gruppe ode
 * [Jugendwettbewerb Informatik](https://wettbewerb.jwinf.de/) der [Gesellschaft für Informatik (Sitz in Bonn)](https://gi.de/) für Kinder und Jugendliche ab der 5. Klasse
 * [Bundeswettbewerb Informatik](https://www.bwinf.de/bundeswettbewerb/) für Jugendliche mit Vorkenntnissen
 * [ScratchEd Meetups](http://scratched.gse.harvard.edu/resources/scratched-meetups-facebook-live)
+
+Viele weitere Anregungen gibt es im [Handbuch mit Making-Aktivitäten von BIMS e.V.](https://www.bimsev.de/n/?Freie_Lernmaterialien___Making-Aktivitaeten_mit_Kindern_und_Jugendlichen._Handbuch_zum_kreativen_digitalen_Gestalten)
