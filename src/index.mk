@@ -9,5 +9,11 @@ title: Code &middot; Kultur &middot; Bonn
 
 Hier listen wir zur besseren Vernetzung der Akteure Orte und Veranstaltungen in und um Bonn auf, bei denen Kinder und Jugendliche programmieren oder sonstwie kreativ mit Computern und anderen digitalen Medien sein können.
 
+Am kommenden Wochendende ist eine Menge los in Bonn:
+
+* [Barcamp Bonn](https://barcampbonn.de)
+* [Codingwerkstatt](/events/2019-06-15-codingwerkstatt.html) mit Calliope Mini im Digitalhub
+* [Absolut Steinchen](/events/2019-06-15-absolut-steinchen.html) in der Hochschule Bonn Rhein Sieg
+
 :p .signature
 	![Olav](@root/olav.png)
