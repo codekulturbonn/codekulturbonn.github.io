@@ -27,11 +27,16 @@ Konzept, Materialsammlung und Beispiel-Code zum freien Herunterladen auf [Github
 
 ## Scratch-Nachmittag
 
-Dieses zweistündige Format eigenet sich für einen Sonntagnachmittag. Die Teilnehmer bringen ihre eigenen Rechner oder Tablets mit, so dass die Veranstaltung auch gut zuhause durchgeführt werden kann. Anhand von Projektkarten realisieren die ca. 8 Teilnehmer ab 9 Jahren kleine Animationsprojekte oder Spiele in der Blockprogrammiersprache Scratch.
+Dieses zweistündige Format eignet sich für einen Sonntagnachmittag. Die Teilnehmer bringen ihre eigenen Rechner oder Tablets mit, so dass die Veranstaltung auch gut zuhause durchgeführt werden kann. Anhand von Projektkarten realisieren die ca. 8 Teilnehmer ab 9 Jahren kleine Animationsprojekte oder Spiele in der Blockprogrammiersprache Scratch.
 
 [Einführungspräsentation](https://drive.google.com/open?id=1ngSQWu8ZFyLN7aues6dI8iFAlHrGLnJu1gCp6UFt0gw) und [Orga-Checkliste](https://drive.google.com/open?id=1I5NfBJlMVPckFoHW3kRDsu5gBdTbIJ7D4bWTrRVCqAY) zum Herunterladen. 
     
 *Ein Tipp:* Immer mehr Kinder haben zuhause keinen Rechner, sondern nur ein Tablet zur Verfügung. Um einfacher mit Scratch und vielleicht später mit Physical Computing oder textbasierten Programmiersprachen zu arbeiten, lohnt sich in diesem Fall die Anschaffung eines [Raspberry Pi](https://amzn.to/2OZQTOh) (Affiliate-Link zu Amazon). Zusammen mit Tastatur und Maus und einem Fernseher oder Computer-Monitor haben die Kinder einen einfachen, aber vollwertigen Computer für unter 50€.   
+
+
+## Fantasiekonsole mit PICO-8
+
+[PICO-8](https://www.lexaloffle.com/pico-8.php) war der Urvater eine ganzen Welle von Fantasiekonsolen. Der Erfinder, Joseph "[zep](https://www.lexaloffle.com/bbs/?uid=1)" White, stieß zufällig auf die Idee und erschuf eine komplette Programmierumgebung, die wegen ihrer bewusst gewählten Beschränkungen kein aufwändiges Design oder großes Entwickler-Team benötigt, um interessante Spielideen umzusetzen. Der Clou: Alle Spiele liegen im Quellcode vor und können nach Herzenslust gespielt und verändet werden! Beim FutureCamp 2018 habe ich [PICO-8 vorgestellt](https://docs.google.com/presentation/d/1Y23TEH1_oleM3BcyQfJ6aAmESNvleLdAuvPFtGzTKms/edit?usp=sharing) und ein Lab dazu veranstaltet. Natürlich kann man auch zuhause [viel Spaß](https://www.lexaloffle.com/pico-8.php) damit haben. 
 
 ## Weitere Aktivitäten
 
