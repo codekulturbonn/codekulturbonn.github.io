@@ -4,4 +4,5 @@ Eine Datenbank mit Orten,  Initiativen und Veranstaltungen in und um die Bundess
 
 ## Hosted on Github at codeculturbonn.github.io
 
-## Generated with http://mulholland.xyz/docs/ivy/
+## Generated with https://darrenmulholland.com/docs/ivy/
+
