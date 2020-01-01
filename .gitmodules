@@ -1,0 +1,4 @@
+[submodule "out"]
+	path = out
+	url = git@github.com:codekulturbonn/codekulturbonn.github.io.git
+	branch = master
