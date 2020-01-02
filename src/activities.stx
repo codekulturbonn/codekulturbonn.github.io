@@ -40,7 +40,7 @@ Dieses zweistündige Format eignet sich für einen Sonntagnachmittag. Die Teilne
 
 ## Andere Fantasiekonsolen
 
-Neben dem Urvater der Fantasiekonsolen, PICO-8, gibt es inzwischen [unglaublich viele, weitere Fantasiekonsolen](https://paladin-t.github.io/fantasy/index). Besonders interessant finde ich [*TIC-80*](https://tic.computer/). Dieses ist [komplett Open Source](https://github.com/nesbox/TIC-80) und läuft auf allen Plattformen, mit [ein wenig Anstrengung](https://github.com/nesbox/TIC-80/issues/984#issuecomment-570046481) sogar auf einem RaspberryPi.
+Neben dem Urvater der Fantasiekonsolen, PICO-8, gibt es inzwischen [unglaublich viele, weitere Fantasiekonsolen](https://paladin-t.github.io/fantasy/index). Besonders interessant finde ich [TIC-80](https://tic.computer/). Dieses ist [komplett Open Source](https://github.com/nesbox/TIC-80) und läuft auf allen Plattformen, mit [ein wenig Anstrengung](https://github.com/nesbox/TIC-80/issues/984#issuecomment-570046481) sogar auf einem RaspberryPi. Ich habe [**zu TIC-80 eine ausführliche Anleitung**](/tic80.html) geschrieben.
 
 Spannend an TIC-80 ist die Integration mit der [Scriptsprache Wren von Bob Nystrom](http://wren.io/). Wren scheint mir eine sehr schöne Sprache für Anfänger zu sein. Ihre Integration mit TIC-80 macht sie daher besonders attraktiv. Wren ist in die [Spiele-Engine Luxe](https://luxeengine.com/) integriert und wird inzwischen von deren Entwickler weiter betreut. 
 

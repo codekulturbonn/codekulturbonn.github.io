@@ -1,0 +1,133 @@
+---
+title: TIC-80, eine Fantasiekonsole
+---
+![TIC80](/tic80/tic80.gif)
+
+TIC-80 ist eine Fantasiekonsole, um darauf kleine Spiele zu programmieren, zu teilen und natürlich auch zu zocken. Es gibt eingebaute Werkzeuge zum Programmieren, zum Erstellen von Figuren (den *Sprites*) und Karten und von Tönen und Melodien. 
+
+Besonders interessant ist, dass das Programm auch kostenlos für Android über den Google Play Store erhältlich ist und so das Zocken, Komponieren und Programmieren auch auf einem Android-Handy oder Android-Tablet erlaubt. Mit einer angeschlossenen Bluetooth-Tastatur machst du aus deinem Telefon einen vollwertigen, programmierbaren Homecomputer. Hier ist die URL zum Playstore:
+
+<a href="https://play.google.com/store/apps/details?id=com.nesbox.tic&hl=de">![QR-Code](/tic80/tic80-playstore.png)</a>
+
+Du kannst TIC-80 entweder auf deinem Rechner installieren oder direkt [im Browser](https://tic.computer/create) ausprobieren. Der Autor Vadim Grigoruk verkauft für US$5 eine *Pro*-Version auf [itch.io](https://nesbox.itch.io/tic). Diese wird aber zum Spielen oder Erstellen eigener Spiele nicht benötigt. Vielleicht willst du seine Arbeit aber unterstützen und kaufst dir deshalb die Pro-Version.
+
+Hast du TIC-80 heruntergeladen und auf deinem Rechner installiert, ladest du beim Start des Programms in einer Befehlszeile. 
+
+![Befehlszeile](/tic80/commandline.png)
+
+Tippst du dort `surf` und die Eingabetaste, bekommst du in einer Liste von Programmen angezeigt. Du kannst diese Liste mit den Pfeiltasten oder auch mit [einem Game Controller](https://amzn.to/39yfOCY) durchstreifen und dir interessante Spiele, Demos, Musikstücke oder Werkszeuge auf deinen Computer laden, den Quellcode inspizieren und das Programm ausführen. 
+
+Für TIC-80 (und andere Fantasiekonsolen wie PICO-8) habe ich mir [diese einfachen Controller](https://amzn.to/2SL9kL6) gekauft:
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=DE&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=librettabuch-21&language=de_DE&marketplace=amazon&region=DE&placement=B01EA7MVTQ&asins=B01EA7MVTQ&linkId=89b1547308a2d6483db7f1658ee3eaf1&show_border=true&link_opens_in_new_window=true"></iframe>
+
+TIC-80 unterstützt zwei solcher Controller. Das hängt aber natürlich vom Spiel ab.
+
+Unter [tic.computer/play](https://tic.computer/play) kannst du auch alle Spiel erst einmal kostenlos ausprobieren, dir Nutzerkommentare durchlesen, sie selber bewerten und die Spiele dann herunterladen. Sie sind alle kostenlos.
+
+Auch in der Version im Browser kannst du dir den Quellcode eines Spieles ansehen, indem du `Esc` drückst, das Spiel verlässt und dann in der Befehlszeile `edit` tippst. Hier ist der Quellecode von [8-Bit-Panda](https://tic.computer/play?cart=188):
+
+![8-Bit-Panda](/tic80/8bitpanda.png)
+
+Diese Programmiersprache ist [Lua](https://www.lua.org/). Lua ist in der Spielewelt sehr verbreitet und eine gut Anfängersprache. Leider ist sie nicht so verbreitet wie z.B. Python, so dass ich hier kein deutsches Lua-Buch zum Lernen der Sprache empfehlen kann. Es gibt aber ein paar Online-Anleitungen zu dieser Programmiersprache:
+
+* [Lua lernen von Henrik Ilgen](https://activevb.de/tutorials/tut_lua/tut_lua.html)
+* [Lua: für Anfänger von Robert Schmitz](http://underpop.online.fr/l/lua-gts-stolberg-de/index.html)
+* [Lean Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/). English und wenn du schon etwas programmieren kannst
+
+Neben der Programmiersprache brauchst du zum Schreiben von Programmen für TIC-80 auch noch ein paar Informationen zu der Umgebung selbst. Die findest du unter [tic.computer/learn](https://tic.computer/learn).
+
+Hier erfährst du folgendes über TIC-80:
+
+::: table
+
+	ANZEIGE	  | 240x136 Bildpunkte ("Pixel"), 16 Farben in einer Palette
+	STEUERUNG | 2 Game-Pads mit 8 Knöpfen oder Bedienung mit der Maus
+	FIGUREN	  | 256 8x8 Figuren ("Sprites") und 256 8x8 Hintergrundkacheln
+	KARTE	  | 240x136 Zellen, 1920x1088 Pixel
+	KLÄNGE	  | 4 Kanäle mit einstellbarer Wellenform
+	CODE	  | 64KB in Lua, Moonscript, JavaScript, Wren oder Fennel
+
+::: end
+
+Die letzte Zeile ist interessant. TIC-80 unterstützt nicht nur Lua, sondern auch anderen Programmiersprachen, u.a. Wren und Javascript. Javascript ist sicher die bekannteste Programmiersprache in dieser Liste. Jeder Web-Browser spricht sie. Javascript hat aber auch ein paar sehr unschöne Eigenschaften, die sie als Anfängersprache eher ungeeignet macht. 
+
+Aber hey, ich will dich nicht davon abhalten, TIC-80-Programme in Javascript zu schreiben. Javascript hat definitiv viele Vorteile. Es ist - wie gesagt, zwar eine etwas merkwürdige Sprache, aber sie ist sehr verbreitet (in Web-Browsern, aber z.B. auch zum Steuern von Hardware). Gordon Williams hat Javascript als [Espruino](https://www.espruino.com/) herausgebracht, verkauft einige günstige Hardware damit und hat [ein schönes Buch](https://amzn.to/36bC8QV) mit vielen Experimenten geschrieben, das es sogar in Deutsch in der Bonner Stadtbücherei gibt.
+
+Auf der [/learn](https://tic.computer/learn)-Seite erklärt Vadim auch noch die Befehle, die du in der Befehlszeile von TIC-80 ausprobieren kannst: 
+
+::: table
+
+	help		  | Zeige erlaubte Befehle
+	ram			  | Zeige Aufteilung des Speichers (80kByte)
+	exit		  | Verlasse TIC-80
+	new			  | Lege ein neues Programm ("Cartrige") an
+	load <cart>	  | Lade eine .tic Cartridge aus einem Ordner
+	save <cart>	  | Speichere eine .tic Cartridge in einen Ordner
+	run			  | Starte das aktuelle Projekte (die Cartridge)
+	dir			  | Liste die lokalen Dateien
+	folder		  | Öffne das Arbeitsverzeichnis in Windows, Linux, oder macOS
+	add			  | Zeige ein Formular zum Hinzufügen einer Datei
+	del <file>	  | Lösche eine Datei (VORSICHT!)
+	get <file>	  | Zeige ein Formular zum Herunterladen einer Datei
+	export <res>  | Exporte [html, native, sprites, cover, map] Dinge aus TIC-80
+	import <res>  | Importiere [sprites, cover, map] Dinge aus einer .gif-Datei
+	cls			  | Leere den Bildschirm
+	demo		  | Installiere Demo Cartridges (= Spiele usw.)
+	config [reset]|	Lade die Einstellungen des Systems
+
+::: end
+
+Weitere Details findest du im [englischen Handbuch von TIC-80](https://github.com/nesbox/TIC-80/wiki). In diesem Handbuch gibt es eine [Seite mit Anleitungen](https://github.com/nesbox/TIC-80/wiki/tutorials). Ein Autor namens Bear Thorne hat dort eine [sehr schöne Beschreibung der allgemeinen Struktur eines Spiels](https://github.com/nesbox/TIC-80/wiki/Intro-to-Game-Programming-in-TIC-80) geschrieben. Die solltest du dir auf jeden Fall anschauen. 
+
+Um mit dem Programmieren eigener Spiele zu beginnen, lohnt es sich, bestehende Spiele anzusehen. Unter [tic.computer/play](https://tic.computer/play) findest du viele Beispiele. Das Tolle an TIC-80 ist, dass du in all diese Spiele hineinschauen kannst. Wenn du ein wenig schummeln und z.B. deinen Punktestand hochsetzen möchtest, geht das natürlich auch!
+
+Bist du sehr ambitioniert und möchtest direkt einen eigenen Platformer schreiben, möchte ich dir den [Artikel von Bruno Oliveira zu seinem Spiel 8-Bit Panda](https://medium.com/@btco_code/writing-a-platformer-for-the-tic-80-virtual-console-6fa737abe476) empfehlen. Der Artikel ist zwar auf Englisch. Wenn du aber den Chrome-Browser benutzt (ausnahmsweise - ich [vermeide diesen Browser](https://lifehacker.com/why-you-should-switch-from-google-chrome-to-firefox-1821879163) normalerweise), so kannst du mit dessen automatischer Übersetzungsfunktion den Artikel in Deutsch lesen. 
+
+Das Übersetzen geht normalerweise automatisch:
+
+![Übersetzen](/tic80/translate.png)
+
+Es kann allerdings sein, dass du Übersetzungen für Englisch erst aktivieren musst. klicke dazu auf die drei Punkte oben rechts in deinem Chrome oder Chromium-Browser, dann auf *Einstellungen* und dort, weit unten unter *Erweitert* auf *Sprachen* und aktiviere dort über die drei Punkte hinter "Englisch (vereinigte Staaten)" das Übersetzen dieser Sprache.     
+
+Doch kommen wir nun zu Wren, was ich dir ja eigentlich zeigen wollte.
+
+## TIC-80 programmieren mit Wren
+
+Wir starten mal [wie Borb in seinem Tutorial](https://github.com/nesbox/TIC-80/wiki/A-step-by-step-introduction-to-TIC-80,-Part-1:-The-Default-Cart) mit der Start-Cartridge, die TIC-80 mit jedem neuen Programm einrichtet, und übersetzen diese in Wren. Die Dokumentation von Wren findest du online im [Handbuch der Sprache](http://wren.io/syntax.html).
+
+Hier ist das Default-Spiel in Wren:
+
+::: code wren
+
+	// title:  Default-Game *Wren*
+	// author: Olav Schettler
+	// desc:   The default game, in Wren
+	// script: wren
+
+	class Game is TIC {
+		construct new() {
+			_t = 0
+			_x = 96
+			_y = 24
+		}
+
+		TIC() { 
+			if (TIC.btn(0)) _y = _y - 1
+			if (TIC.btn(1)) _y = _y + 1
+			if (TIC.btn(2)) _x = _x - 1
+			if (TIC.btn(3)) _x = _x + 1
+
+			TIC.cls(13)
+			TIC.spr(1 + (_t % 60 / 30).floor * 2, 
+				_x, _y, 
+				14, 3, 0, 0, 2, 2
+			)
+			TIC.print("HELLO WORLD!", 84, 84)
+			_t = _t + 1
+		}
+	}
+
+::: end
+
+(wird fortgesetzt)
