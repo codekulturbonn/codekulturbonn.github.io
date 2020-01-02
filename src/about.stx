@@ -1,19 +1,16 @@
 ---
 title: Über Code &middot; Kultur &middot; Bonn
 ---
-Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) erzeugt. 
-Die Dateien können in *Markdown* (Endung .md) oder [* Syntext*](https://darrenmulholland.com/docs/syntext/) (Endung .stx) 
-formatiert sein.  Ursprünglich benutzte das Programm zum Generieren der Seiten ein leicht anderes Format mit .mk-Endung. Am 2020-01-01 habe ich alle .mk-Dateien umbenannt auf .stx
+Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) erzeugt. Die Dateien können in *Markdown* (Endung .md) oder [*Syntext*](https://darrenmulholland.com/docs/syntext/) (Endung .stx) formatiert sein.  Ursprünglich benutzte das Programm zum Generieren der Seiten ein leicht anderes Format mit .mk-Endung. Am 2020-01-01 habe ich alle .mk-Dateien umbenannt auf .stx
 
 Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen 
 [Pull Request auf Github](https://github.com/codekulturbonn/codekulturbonn.github.io).
 
-Einträge können sich auf [einen Ort](/venues.html) oder [eine Veranstaltung](/events.html) beziehen oder [ortsunabhängige 
-Aktivitäten](/activities.html) beschreiben.
+Einträge können sich auf [einen Ort](/venues.html) oder [eine Veranstaltung](/events.html) beziehen oder [ortsunabhängige Aktivitäten](/activities.html) beschreiben.
 
 Die Einträge sind dabei Textdateien mit einer einfachen Struktur. Eine Datei beginnt immer mit drei Strichen `---`, 
 gefolgt von einer Reihe Kopfzeilen, abgeschlossen mit nochmals `---`. Der Rest der Datei enthält die Beschreibung im
-[*Monk*](https://darrenmulholland.com/docs/monk/)-Format. 
+[*Syntext*](https://darrenmulholland.com/docs/syntext/)-Format. 
 
 Hier ein Beispiel für Kopfzeilen eines Ortes:
 
@@ -29,8 +26,7 @@ Veranstaltungen haben andere Kopfzeilen, z.B.:
 	event_url: https://futurecamp.digital/
 	venue: haus-der-jugend
 
-`venue` enthält dabei den Dateinamen eines Veranstaltungsortes. Auf diese Weise können wir Veranstaltungen an einem 
-bestimmten Ort auflisten, z.B. im [Haus der Jugend](/venues/haus-der-jugend.html). 
+`venue` enthält dabei den Dateinamen eines Veranstaltungsortes. Auf diese Weise können wir Veranstaltungen an einem bestimmten Ort auflisten, z.B. im [Haus der Jugend](/venues/haus-der-jugend.html). 
 
 Wir freuen uns auf eure Einträge!
 
