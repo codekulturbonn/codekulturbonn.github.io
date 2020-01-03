@@ -98,36 +98,6 @@ Wir starten mal [wie Borb in seinem Tutorial](https://github.com/nesbox/TIC-80/w
 
 Hier ist das Default-Spiel in Wren:
 
-::: code wren
-
-	// title:  Default-Game *Wren*
-	// author: Olav Schettler
-	// desc:   The default game, in Wren
-	// script: wren
-
-	class Game is TIC {
-		construct new() {
-			_t = 0
-			_x = 96
-			_y = 24
-		}
-
-		TIC() { 
-			if (TIC.btn(0)) _y = _y - 1
-			if (TIC.btn(1)) _y = _y + 1
-			if (TIC.btn(2)) _x = _x - 1
-			if (TIC.btn(3)) _x = _x + 1
-
-			TIC.cls(13)
-			TIC.spr(1 + (_t % 60 / 30).floor * 2, 
-				_x, _y, 
-				14, 3, 0, 0, 2, 2
-			)
-			TIC.print("HELLO WORLD!", 84, 84)
-			_t = _t + 1
-		}
-	}
-
-::: end
+<script src="https://gist.github.com/oschettler/91e66320a502341145a6ae1d9976d0f5.js"></script>
 
 (wird fortgesetzt)
