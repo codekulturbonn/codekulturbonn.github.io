@@ -331,35 +331,9 @@ Wir starten mal <a href="https://github.com/nesbox/TIC-80/wiki/A-step-by-step-in
 <p>
 Hier ist das Default-Spiel in Wren:
 </p>
-<pre class="lang-wren pygments" data-lang="wren">
-<span class="o">//</span> <span class="n">title</span><span class="p">:</span>  <span class="k">Default</span><span class="o">-</span><span class="n">Game</span> <span class="o">*</span><span class="n">Wren</span><span class="o">*</span>
-<span class="o">//</span> <span class="n">author</span><span class="p">:</span> <span class="n">Olav</span> <span class="n">Schettler</span>
-<span class="o">//</span> <span class="k">desc</span><span class="p">:</span>   <span class="n">The</span> <span class="k">default</span> <span class="n">game</span><span class="p">,</span> <span class="k">in</span> <span class="n">Wren</span>
-<span class="o">//</span> <span class="n">script</span><span class="p">:</span> <span class="n">wren</span>
-
-<span class="k">class</span> <span class="n">Game</span> <span class="k">is</span> <span class="n">TIC</span> <span class="err">{</span>
-    <span class="n">construct</span> <span class="k">new</span><span class="p">()</span> <span class="err">{</span>
-        <span class="n">_t</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="n">_x</span> <span class="o">=</span> <span class="mi">96</span>
-        <span class="n">_y</span> <span class="o">=</span> <span class="mi">24</span>
-    <span class="err">}</span>
-
-    <span class="n">TIC</span><span class="p">()</span> <span class="err">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">TIC</span><span class="p">.</span><span class="n">btn</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span> <span class="n">_y</span> <span class="o">=</span> <span class="n">_y</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">TIC</span><span class="p">.</span><span class="n">btn</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="n">_y</span> <span class="o">=</span> <span class="n">_y</span> <span class="o">+</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">TIC</span><span class="p">.</span><span class="n">btn</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="n">_x</span> <span class="o">=</span> <span class="n">_x</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">TIC</span><span class="p">.</span><span class="n">btn</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span> <span class="n">_x</span> <span class="o">=</span> <span class="n">_x</span> <span class="o">+</span> <span class="mi">1</span>
-
-        <span class="n">TIC</span><span class="p">.</span><span class="n">cls</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span>
-        <span class="n">TIC</span><span class="p">.</span><span class="n">spr</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="p">(</span><span class="n">_t</span> <span class="o">%</span> <span class="mi">60</span> <span class="o">/</span> <span class="mi">30</span><span class="p">).</span><span class="n">floor</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
-            <span class="n">_x</span><span class="p">,</span> <span class="n">_y</span><span class="p">,</span>
-            <span class="mi">14</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span>
-        <span class="p">)</span>
-        <span class="n">TIC</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="ss">&quot;HELLO WORLD!&quot;</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">84</span><span class="p">)</span>
-        <span class="n">_t</span> <span class="o">=</span> <span class="n">_t</span> <span class="o">+</span> <span class="mi">1</span>
-    <span class="err">}</span>
-<span class="err">}</span>
-</pre>
+<p>
+<script src="https://gist.github.com/oschettler/91e66320a502341145a6ae1d9976d0f5.js"></script>
+</p>
 <p>
 (wird fortgesetzt)
 </p>
