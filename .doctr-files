@@ -3,6 +3,7 @@
 ./about.html
 ./activities.html
 ./codekulturbn.css
+./codekulturbonn-logo.png
 ./events.html
 ./events/2018-05-12-arduino-day.html
 ./events/2018-05-12-jugend-hackt-nrw.html
@@ -29,6 +30,7 @@
 ./events/2019-06-29-python-programmierkurs.html
 ./events/2019-07-13-codingwerkstatt.html
 ./events/2020-02-04-learn-to-code.html
+./events/2020-04-25-journocon.html
 ./fontawesome-all.min.js
 ./googled5a370abeac7e4ec.html
 ./html5shiv.js
