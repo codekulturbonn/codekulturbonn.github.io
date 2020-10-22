@@ -33,6 +33,7 @@
 ./events/2020-03-14-oshwa-2020.html
 ./events/2020-04-15-der-heisse-draht-online.html
 ./events/2020-04-25-journocon.html
+./events/2020-10-21-codeweek-bonn.html
 ./fontawesome-all.min.js
 ./googled5a370abeac7e4ec.html
 ./html5shiv.js
@@ -92,6 +93,7 @@
 ./venues/medienpaedagogik-bonn.html
 ./venues/medienzentrum-bonn.html
 ./venues/montag-stiftungen.html
+./venues/myfirstcode.html
 ./venues/recurse.html
 ./venues/sk-stiftung.html
 ./venues/smart-camps.html
@@ -101,4 +103,5 @@
 ./venues/tinkering-school.html
 ./venues/tinkerthon.html
 ./venues/vhs-bonn.html
+./venues/yound-garage-lab-ddorf.html
 ./venues/zkm-open-codes.html
