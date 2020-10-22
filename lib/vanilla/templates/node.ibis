@@ -31,6 +31,8 @@
     <article id="main" class="main">
         {% if node.title %}
             <h1>{{ node.title }}</h1>
+        {% else %}
+            <h1>{{ node.meta['title'] }}</h1>
         {% endif %}
         {% block head %}{% endblock %}
         {{ node.html }}

@@ -4,7 +4,7 @@
   {% if node.venue_url %}
   <ul class="info-box">
     <li><i class="fa fa-globe"></i>
-      <a href="{{ node.venue_url }}">Homepage</a></li>
+      <a rel="nofollow" href="{{ node.venue_url }}">Homepage</a></li>
     {% if node.location %}
       <li><i class="fa fa-map-marker"></i> {{ node.location }}
     {% endif %}
@@ -13,13 +13,13 @@
 {% endblock %}
 
 {% block foot %}
-  {% if node.childlist %}
+  {% if node.has_children %}
     <h2>In Bonn</h2>
     <ul>
-    {% for venue in node.childlist %}
+    {% for venue in node.sorted_children %}
       {% if venue.location.startswith('Bonn') %}
       <li>
-        <a href="{{ venue.url }}">{{ venue.title }}</a>
+        <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>
       </li>
       {% endif %}
     {% endfor %}
@@ -27,10 +27,10 @@
 
     <h2>Anderswo</h2>
     <ul>
-    {% for venue in node.childlist %}
+    {% for venue in node.sorted_children %}
       {% if not venue.location.startswith('Bonn') %}
       <li>
-        <a href="{{ venue.url }}">{{ venue.title }}, {{ venue.location }}</a>
+        <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>, {{ venue.location }}
       </li>
       {% endif %}
     {% endfor %}
@@ -42,7 +42,7 @@
     <ul>
     {% for event in node.events %}
       <li>
-        {{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif %} - <a href="{{ event.url }}">{{ event.title }}</a>
+        {{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif %} - <a rel="nofollow" href="{{ event.url }}">{{ event.title }}</a>
       </li>
     {% endfor %}
     </ul>
