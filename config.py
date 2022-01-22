@@ -7,9 +7,6 @@
 # available to themes and plugins. Note that you can safely delete this file
 # if your site does not require custom settings.
 
-out_dir = "docs"
-
-
 # ------------------------------------------------------------------------------
 # Theme
 # ------------------------------------------------------------------------------
