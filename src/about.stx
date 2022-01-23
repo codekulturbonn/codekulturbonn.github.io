@@ -59,6 +59,5 @@ Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die
 ## Verwendete Open Source Software
 
 * [Ivy](http://dmulholl.com/docs/ivy/dev/), ein in Python geschriebener Generator für statische Websites von Darren Mulholland.
-* [Doctr](https://drdoctr.github.io/) vereinfacht das Veröffentlichen der Seiten auf Github Pages mithilfe von Travis
 
-Bei jeder Änderung an den Inhalten im [Quell-Branch *source*](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) über *git push* startet ein Skript (definiert in der Datei [.travis.yaml](https://github.com/codekulturbonn/codekulturbonn.github.io/blob/master/.travis.yml)) und lässt nacheinander Ivy und Doctr laufen, um aus den Quelldateien zuerst HTML zu erzeugen und dieses dann als [Github Pages](https://pages.github.com/) zu veröffentlichen.
+Bei jeder Änderung an den Inhalten im [Quell-Branch *source*](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) über *git push* startet ein Skript (definiert in der Datei [deploy.yaml](https://github.com/codekulturbonn/codekulturbonn.github.io/blob/source/.githhub/workflows/deploy.yml)) und lässt Ivy laufen, um aus den Quelldateien zuerst HTML zu erzeugen und dieses dann als [Github Pages](https://pages.github.com/) zu veröffentlichen.
