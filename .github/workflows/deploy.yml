@@ -30,8 +30,8 @@ jobs:
 
     # Push the HTML to github-pages
     - name: GitHub Pages action
-      uses: peaceiris/actions-gh-pages@v3.6.1
+      uses: JamesIves/github-pages-deploy-action@v4.2.5
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs/
-        publish_branch: main
+        folder: docs
+        branch: main
