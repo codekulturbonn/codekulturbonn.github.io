@@ -8,7 +8,7 @@ Wir freuen uns über neue Einträge für Orte oder Veranstaltungen. Unser Fokus 
 
 ## Hosted on Github 
 
-* at codeculturbonn.github.io
+* at codekulturbonn.github.io
 
 ## Generated with 
 
