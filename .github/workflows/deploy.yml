@@ -32,6 +32,5 @@ jobs:
     - name: GitHub Pages action
       uses: JamesIves/github-pages-deploy-action@v4.2.5
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         folder: docs
         branch: main
