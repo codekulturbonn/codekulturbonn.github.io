@@ -1,13 +1,1 @@
-argslib==2.0.1
-colorama==0.4.4
-ibis==3.2.0
-importlib-metadata==4.10.1
-ivy==6.0.4
-Jinja2==2.11.3
-Markdown==3.3.6
-MarkupSafe==2.0.1
-Pygments==2.11.2
-PyYAML==5.4.1
-shortcodes==5.1.1
-syntext==2.9.0
-zipp==3.7.0
+ark==7.7.0
