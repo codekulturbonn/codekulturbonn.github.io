@@ -2,8 +2,12 @@
 title: Blog "Medienpädagogik Bonn"
 location: Bonn
 venue_url: http://blog.bonn.de/medienpaedagogik
+gone: true
 ---
 * Gemeinsames Blog vom
 
-  + Medienzentrum Bonn und
+  + [% venue medienzentrum-bonn %] und
   + Amt für Kinder, Jugend und Familie Bonn
+
+:aside
+  <i class="fa fa-exclamation-triangle"></i> Das Blog unter [blog.bonn.de](https://web.archive.org/web/20211202055405/https://blog.bonn.de/medienpaedagogik/) gibt es seit Ende 2021 nicht mehr. Die *Fachberatung Medienpädagogik* im Amt für Kinder, Jugend und Familie aber immer noch. Dieser bietet auch eine Veranstaltungsreihe an. 
