@@ -45,3 +45,6 @@ root = ""
 # Choose a file extension for generated files, e.g. ".html" (the default),
 # or specify a forward slash ("/") to generate directory-style urls.
 extension = ".html"
+
+# 2024-11-30
+out_dir = "docs"

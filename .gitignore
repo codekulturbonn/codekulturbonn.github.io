@@ -1,5 +1,5 @@
 env/
-out/
+docs/
 .vscode/
 __pycache__/
 node_modules/
