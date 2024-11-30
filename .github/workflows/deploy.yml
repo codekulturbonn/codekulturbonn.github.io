@@ -1,36 +1,35 @@
-name: Deploy CodeKulturBonn
+# Deploy via Ark/Holly
 
-on: 
+on:
   push:
     branches:
-    - source
+    - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+
+    # Install python
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
       with:
-        persist-credentials: false
+        python-version: '3.10'
 
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-
-    - name: Install dependencies
+    - name: Install python dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        python -m pip install -U pip
+        python -m pip install -r requirements.txt
 
-    - name: Build with Ivy
+    # Build the site
+    - name: Build the site
       run: |
-        ivy build
+        python -mark build
 
-    # Push the HTML to github-pages
+    # Push the sites's HTML to github-pages
     - name: GitHub Pages action
-      uses: JamesIves/github-pages-deploy-action@v4.2.5
+      uses: peaceiris/actions-gh-pages@v4
       with:
-        folder: docs
-        branch: main
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out/
