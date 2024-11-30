@@ -59,3 +59,16 @@ footer img {
   margin: 0;
   width: 100px;
 }
+
+aside {
+  width: 80%;
+  margin: auto;
+  border: solid 1px gray;
+  border-radius: 10px;
+  box-shadow: 6px 6px 2px 2px #CCC;
+  padding: 0 10px;
+}
+
+aside p {
+  margin: 10px;
+}

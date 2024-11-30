@@ -17,7 +17,7 @@
     <h2>In Bonn</h2>
     <ul>
     {% for venue in node.sorted_children %}
-      {% if venue.location.startswith('Bonn') %}
+      {% if not venue.gone and venue.location.startswith('Bonn') %}
       <li>
         <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>
       </li>
@@ -28,13 +28,25 @@
     <h2>Anderswo</h2>
     <ul>
     {% for venue in node.sorted_children %}
-      {% if not venue.location.startswith('Bonn') %}
+      {% if not venue.gone and not venue.location.startswith('Bonn') %}
       <li>
         <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>, {{ venue.location }}
       </li>
       {% endif %}
     {% endfor %}
     </ul>
+
+    <h2>Verschwunden</h2>
+    <ul>
+    {% for venue in node.sorted_children %}
+      {% if venue.gone %}
+      <li>
+        <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>, {{ venue.location }}
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+
   {% endif %}
 
   {% if node.events %}

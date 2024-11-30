@@ -2,5 +2,9 @@
 title: "#MyFirstCode"
 location: Bonn
 venue_url: https://www.myfirstcode.de/
+gone: true
 ---
 My First Code ist eine Freiwilligen-Initiative aus Bonn, die Schülerinnen und Schülern von Klasse 5 bis 8 in modularen Workshops das Programmieren beibringt. Die Workshops finden in kleinen Arbeitsgruppen nach dem regulären Unterricht in der Schule statt und sind kostenlos. 
+
+:aside
+    <i class="fa fa-exclamation-triangle"></i> Die Site ist nicht mehr am Netz. Letzte archivierte Version ist [von 2020-11-01](https://web.archive.org/web/20201101034233/https://www.myfirstcode.de/).
