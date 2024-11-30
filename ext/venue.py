@@ -3,7 +3,7 @@ import ark
 import os
 
 @shortcodes.register('venue')
-def venue_shortcode(node, content, pargs, kwargs):
+def venue_shortcode(pargs, kwargs, context):
     if pargs:
         venue = ark.nodes.node('@root/venues/' + pargs[0])
         if venue != None:
