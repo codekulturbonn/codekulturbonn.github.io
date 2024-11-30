@@ -10,7 +10,7 @@ def venue_shortcode(node, content, pargs, kwargs):
             return '[' + venue['title'] + '](' + venue.url + ')'
     return ''
 
-@ark.filters.register('file_text')
+@ark.filters.register(ark.filters.Filter.FILE_TEXT)
 def venue_meta_link(text, meta):
     if 'venue' in meta:
         venue = ark.nodes.node('@root/venues/' + meta['venue'])
@@ -22,7 +22,7 @@ def venue_meta_link(text, meta):
             meta['venue_link'] = '<a rel="nofollow" href="' + venue.url + '">' + venue['title'] + '</a>' + location
     return text
 
-@ark.events.register('render_page')
+@ark.events.register(ark.events.Event.RENDER_PAGE)
 def venue_events(page):
     venue = page['node']
     if page['is_homepage'] or len(venue.path) < 2 or venue.path[0] != 'venues':
@@ -34,7 +34,7 @@ def venue_events(page):
             if 'venue' in event and event['venue'] == venue.path[1] 
     ]
 
-@ark.events.register('render_page')
+@ark.events.register(ark.events.Event.RENDER_PAGE)
 def venue_sort_by_title(page):
     venue = page['node']
     if page['is_homepage'] or len(venue.path) > 1 or venue.path[0] != 'venues':

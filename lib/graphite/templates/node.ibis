@@ -6,6 +6,7 @@
         <title>{{ node.meta_title || node.title || site.title }}</title>
         <link rel="stylesheet" href="@root/fonts.css">
         <link rel="stylesheet" href="@root/theme.css">
+        <link rel="stylesheet" href="@root/codekulturbn.css">
         <link rel="stylesheet" href="@root/pygments.css">
         {% if node.meta_description %}
             <meta name="description" content="{$ node.meta_description.strip() $}">
@@ -39,8 +40,11 @@
                 {% endif %}
                 <hr>
             </header>
+            {% block head %}{% endblock %}
             {{ node.html }}
-        </article>
+            {% block foot %}{% endblock %}
+         </article>
         {{ inc.foot }}
+        <script src="@root/fontawesome-all.min.js"></script>
     </body>
 </html>

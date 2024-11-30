@@ -1,7 +1,7 @@
 ---
 title: Über Code &middot; Kultur &middot; Bonn
 ---
-Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/source/src) erzeugt. Die Dateien können in *Markdown* (Endung .md) oder [*Syntext*](https://darrenmulholland.com/docs/syntext/) (Endung .stx) formatiert sein.  Ursprünglich benutzte das Programm zum Generieren der Seiten ein leicht anderes Format mit .mk-Endung. Am 2020-01-01 habe ich alle .mk-Dateien umbenannt auf .stx
+Diese Seiten werden automatisch aus einem [Verzeichnis mit Textdateien](https://github.com/codekulturbonn/codekulturbonn.github.io/tree/main/src) erzeugt. Die Dateien können in *Markdown* (Endung .md) oder [*Syntext*](https://www.dmulholl.com/docs/syntext/master/) (Endung .stx) formatiert sein.  Ursprünglich benutzte das Programm zum Generieren der Seiten ein leicht anderes Format mit .mk-Endung. Am 2020-01-01 habe ich alle .mk-Dateien umbenannt auf .stx
 
 Du möchtest einen Einträg ändern oder ergänzen? Schicke uns einfach einen 
 [Pull Request auf Github](https://github.com/codekulturbonn/codekulturbonn.github.io).
@@ -10,7 +10,7 @@ Einträge können sich auf [einen Ort](/venues.html) oder [eine Veranstaltung](/
 
 Die Einträge sind dabei Textdateien mit einer einfachen Struktur. Eine Datei beginnt immer mit drei Strichen `---`, 
 gefolgt von einer Reihe Kopfzeilen, abgeschlossen mit nochmals `---`. Der Rest der Datei enthält die Beschreibung im
-[*Syntext*](https://darrenmulholland.com/docs/syntext/)-Format. 
+[*Syntext*](https://www.dmulholl.com/docs/syntext/master/)-Format. 
 
 Hier ein Beispiel für Kopfzeilen eines Ortes:
 
@@ -46,7 +46,7 @@ Dr. Olav Schettler
 
 Ich bin Diplom-Informatiker und arbeite als Product Owner für Sprachassistenten und Smart TV Apps (OTT) bei der [DW (Deutsche Welle)](https://www.dw.com/) in Bonn.
 
-Als Vater von zwei jungen Erwachsenen und einer Tochter in der 5. Klasse werde ich täglich mit der Faszination der Medienwelt für Heranwachsende konfrontiert. Als ich Anfang der 1980er Jahre als Schüler anfing, mich mit Elektronik zu beschäftigen, mussten wir unsere Computer noch selber aus einzelnen ICs zusammenbauen. Dabei lernt man natürlich eine Menge über das Wie und Warum von Computern. Mit meinem Informatikstudium habe ich diese frühe Faszination zum Beruf gemacht und arbeite seit mehr als 25 Jahren in Web-Entwicklung und E-Commerce.
+Als Vater von zwei jungen Erwachsenen und einer Tochter in der 10. Klasse werde ich täglich mit der Faszination der Medienwelt für Heranwachsende konfrontiert. Als ich Anfang der 1980er Jahre als Schüler anfing, mich mit Elektronik zu beschäftigen, mussten wir unsere Computer noch selber aus einzelnen ICs zusammenbauen. Dabei lernt man natürlich eine Menge über das Wie und Warum von Computern. Mit meinem Informatikstudium habe ich diese frühe Faszination zum Beruf gemacht und arbeite seit mehr als 30 Jahren in Web-Entwicklung und E-Commerce.
 
 Seit einigen Jahren zeige ich Kindern in Workshops die faszinierende Welt der Microcontroller. Dazu passt gut, dass es unter dem Stichwort "Physical Computing" inzwischen leistungsfähige und doch preiswerte Microcontroller gibt, die von einer internationalen Fan-Gemeinde entwickelt werden und die es interessierten Bastlern und Künstlern ermöglichen, Microcontroller in ihre Bauwerke zu integrieren. 
 

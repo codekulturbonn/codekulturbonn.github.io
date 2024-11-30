@@ -1,0 +1,51 @@
+{% extends "node.ibis" %}
+
+{% block head %}
+  {% if node.venue_url %}
+  <ul class="info-box">
+    <li><i class="fa fa-globe"></i>
+      <a rel="nofollow" href="{{ node.venue_url }}">Homepage</a></li>
+    {% if node.location %}
+      <li><i class="fa fa-map-marker"></i> {{ node.location }}
+    {% endif %}
+  </ul>
+  {% endif %}
+{% endblock %}
+
+{% block foot %}
+  {% if node.has_children %}
+    <h2>In Bonn</h2>
+    <ul>
+    {% for venue in node.sorted_children %}
+      {% if venue.location.startswith('Bonn') %}
+      <li>
+        <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+
+    <h2>Anderswo</h2>
+    <ul>
+    {% for venue in node.sorted_children %}
+      {% if not venue.location.startswith('Bonn') %}
+      <li>
+        <a rel="nofollow" href="{{ venue.url }}">{{ venue.title }}</a>, {{ venue.location }}
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if node.events %}
+    <h2>Veranstaltungen</h2>
+    <ul>
+    {% for event in node.events %}
+      <li>
+        {{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif %} - <a rel="nofollow" href="{{ event.url }}">{{ event.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+{% endblock %}

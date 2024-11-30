@@ -1,0 +1,46 @@
+{% extends "node.ibis" %}
+
+{% block head %}
+    {% if node.start %}
+        <ul class="info-box">
+          {% if node.event_url %}
+          <li><i class="fa fa-globe"></i>
+            <a rel="nofollow" href="{{ node.event_url }}">Homepage</a></li>
+          {% endif %}
+          {% if node.venue_link %}
+              <li class="venue"><i class="fa fa-map-marker"></i> {{ node.venue_link }}</li>
+          {% elif node.location %}
+              <li class="location"><i class="fa fa-map-marker"></i> {{ node.location }}</li>
+          {% endif %}
+          <li><i class="fa fa-clock"></i> 
+            {{ node.start }}{% if node.end %} &hellip; {{ node.end }}{% endif %}</li>
+        </ul>
+    {% endif %}
+{% endblock %}
+
+{% block foot %}
+  {% if node.has_children %}
+    <h2>Veranstaltungen</h2>
+    <ul>
+    {% for event in node.sorted_children %}
+      <li>{{ event.start }}{% if event.end %} &hellip; {{ event.end }}{% endif %}:
+        {% if event.text %}
+          <a href="{{ event.url }}">{{ event.title }}</a>
+        {% else %}
+            {% if event.event_url %}
+              <a rel="nofollow" href="{{ event.event_url }}">{{ event.title }}</a>
+            {% else %}
+              {{ event.title }}
+            {% endif %}
+        {% endif %}
+        {% if event.venue_title %}
+          - {{ event.venue_title }}
+        {% endif %}
+        {% if event.location %}
+          - {{ event.location }}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}
